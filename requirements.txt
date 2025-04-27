@@ -1,0 +1,55 @@
+fastapi==0.100.0
+# FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+fastapi-utils==0.2.1
+# FastAPI utilities for additional features and enhancements
+#fastapi-neo4j>=0.1.0
+# FastAPI Neo4j integration for building APIs with Neo4j database
+neomodel==5.0.0
+# Neomodel is an Object Graph Mapper (OGM) for working with Neo4j databases in Python
+
+# Database drivers and ORM
+# GrapheneDB is a managed Neo4j database service, this package provides utilities for connecting to it
+#etl>=0.1.0
+# ETL (Extract, Transform, Load) utilities for data processing
+# Uncomment the following lines if you need these database drivers
+# psycopg2-binary  # PostgreSQL
+# mysql-connector-python  # MySQL
+# sqlite3  # SQLite (included in Python standard library)
+
+# Web server and ASGI server
+starlette>=0.27.0
+# Starlette is a lightweight ASGI framework/toolkit, which is used by FastAPI
+uvicorn[standard]
+# ASGI server for running FastAPI applications
+neo4j>=5.20.0
+# Neo4j driver for Python
+
+# Additional libraries for FastAPI and Neo4j integration
+#fastapi-neo4j-utils>=0.1.0
+# FastAPI Neo4j utilities for easier integration
+python-dotenv==0.21.0
+pipenv==2023.7.1
+virtualenv>=20.17.1
+pydantic<3.0.0
+# Pydantic for data validation and settings management
+configparser==5.3.0
+# ConfigParser for handling configuration files
+
+# Optional dependencies for testing and development
+pytest
+pytest-asyncio
+httpx
+
+# Optional dependencies for database migrations and management
+alembic
+
+# Optional dependencies for additional features
+fastapi-jwt-auth==0.2.0
+# FastAPI JWT Auth for handling JSON Web Tokens (JWT) in FastAPI applications
+# Uncomment the following lines if you need these features
+# sqlalchemy
+# sqlalchemy[asyncio]
+# sqlalchemy[asyncpg]
+# sqlalchemy[postgresql]
+# sqlalchemy[mysql]
+sqlalchemy[sqlite]

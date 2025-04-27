@@ -1,5 +1,6 @@
 from doctest import debug
-from fastapi import FastAPI # type: ignore
+from fastapi import FastAPI
+from .app/ import * # type: ignore
 
 from neomodel import config, StructuredNode, StringProperty, IntegerProperty, RelationshipTo, RelationshipFrom # type: ignore 
 

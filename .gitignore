@@ -148,4 +148,5 @@ instance/
 .git/
 
 # GraphDB development environment
-graphdb.dev/
+graphdb.dev/** 
+*graphdb.dev

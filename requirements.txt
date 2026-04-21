@@ -27,7 +27,7 @@ neo4j>=5.20.0
 # Additional libraries for FastAPI and Neo4j integration
 #fastapi-neo4j-utils>=0.1.0
 # FastAPI Neo4j utilities for easier integration
-python-dotenv==0.21.0
+python-dotenv==1.2.2
 pipenv==2023.7.1
 virtualenv>=20.17.1
 pydantic<3.0.0
